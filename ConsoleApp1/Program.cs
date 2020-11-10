@@ -47,6 +47,12 @@ namespace ConsoleApp1
 
             int naam = (int)d;
             Console.WriteLine();
+
+
+            Console.WriteLine("Select day please");
+            var input = Enum.Parse(typeof(WorkingDays), Console.ReadLine());
+            Console.WriteLine(input);
+
         }
     }
 }
