@@ -18,6 +18,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            #region ENUMMERATIE
             //WorkingDays d = (WorkingDays)1;
             //Console.WriteLine(d);
 
@@ -38,6 +39,14 @@ namespace ConsoleApp1
             {
                 Console.WriteLine(j);
             }
+            #endregion
+
+
+            Console.WriteLine("Select day please");
+            WorkingDays d = WorkingDays.Thuesday;
+
+            int naam = (int)d;
+            Console.WriteLine();
         }
     }
 }
